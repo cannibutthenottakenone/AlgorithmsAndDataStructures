@@ -1,0 +1,26 @@
+First Exercise: Reverse Words
+
+Write a script to reverse each word is a string using a Stack.
+Words must stay in the same initial position
+E.g., "Algorithm and Data Structures" will become "mhtiroglA dna ataD serutcurtS"
+
+
+
+
+Second Exercise: Delete the middle element of Stack
+
+Write a script to remove the middle element of a Stack
+E.g.: input [1, 2, 3, 4, 5]
+      output [1, 2, 4, 5]
+
+NOTE: you can solve the problem using an auxiliary stack or using recursion
+
+
+
+Third Exercise: Redundant parentheses (DIFFICULT)
+
+Write a function that check whether or not a valid expression has redundant parentheses
+E.g.:    ( (a + b) )            # Redundant
+         ( a + (b) / c )        # Redundant
+         ( a + ( (b + c) ) )    # Redundant
+         (a + b * (c - d) )     # Not redundant
