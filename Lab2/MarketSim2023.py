@@ -1,5 +1,8 @@
 #sorry for the lack of comments :( 
 
+import sys, os
+sys.path.append(os.path.join(sys.path[0], "..", "modules"))
+
 from typing import Any
 from LinearStructures import Queue
 from random import randint
