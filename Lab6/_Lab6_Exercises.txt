@@ -1,0 +1,70 @@
+FIRST EXERCISE: VERIFY HEAP
+
+Check if a given list of numbers represents a max-heap or not
+
+E.g.:
+
+[90, 36, 18, 8, 25, 7, 1]  -> YES
+
+              90
+           /     \
+          36       18
+        /   \     /  \
+       8    25   7    1
+
+
+[90, 36, 18, 98, 25, 7, 1]  -> NO, since 98 is greater than its parent, 36 and the root, 90
+
+              90
+            /     \
+          36       18
+        /   \     /  \
+      98    25   7    1
+
+
+[90, 36, 18, 8, 25, 7, 20]  -> NO, since 20 is greater than its parent, 18
+
+              90
+           /     \
+          36       18
+        /   \     /  \
+       8    25   7    20
+
+
+
+
+
+SECOND EXERCISE: VERIFY COMPLETE
+
+Verify if a binary tree is complete or not
+
+NOTE: you can use a Stack or a Queue
+
+E.g.:
+
+               A              TRUE
+            /     \
+          B        C
+        /   \     /  \
+       D    E    F    G
+     /  \
+    H    I
+
+               A              FALSE
+            /     \
+          B        C
+        /   \       \
+       D     E       G
+
+
+               A              FALSE
+            /     \
+          B        C
+        /   \
+       D    E
+     /  \
+    H    I
+
+
+
+
