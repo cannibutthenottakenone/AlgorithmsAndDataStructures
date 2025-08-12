@@ -1,0 +1,10 @@
+EXERCISE: FIND THE STRONGLY CONNECTED COMPONENTS OF A DIRECTED GRAPH
+
+The task can be achieved using the Kosaraju's algorithm:
+
+1) Compute DFS on graph G and push in a stack each vertex (or, more simply, its ID) when it becomes black
+2) Compute the transposed graph GT (i.e., a graph in which the directions of the edges are reversed)
+3) Run DFS on GT but consider the vertexes in order of decreasing finishing time of step 1 (i.e. pop the vertices
+   from the stack one by one and use them in that order as starting vertex for DFS)
+4) Print the obtained SCC
+
